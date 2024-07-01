@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding: 20px;
+}
+
+.navbar a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.search-input {
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 2em 0 2em 2em;
+}
+
+.Btn {
+  padding: 7px 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 2em;
+}
+
+.Btn:hover {
+  transition: 0.3s;
+  color: black;
+  background-color: rgb(196, 196, 196);
+}
+
+.Btn2 {
+  padding: 7px 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Btn2:hover {
+  transition: 0.3s;
+  color: black;
+  background-color: rgb(196, 196, 196);
+}
+
+.country-cards {
+  margin-top: 3em;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.favourite-card {
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-left: 2em;
+    padding: 20px;
+}
